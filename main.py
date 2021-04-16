@@ -24,8 +24,8 @@ class Game():
             
             pygame.display.flip()
             
-        pygame.quit()
-        sys.exit()
+        pygame.quit() # Nos cierra PyGame
+        sys.exit() # Nos cierra Python
             
             
 if __name__ == '__main__':
